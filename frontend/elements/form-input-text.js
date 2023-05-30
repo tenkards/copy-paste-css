@@ -526,4 +526,36 @@ export const FORM_INPUT_TEXT = [
             },
         ]
     },
+     {
+        company: "Walmart",
+        elements: [
+            css
+        .my-search {
+            display: flex;
+            align-items: center;
+            max-width: 300px;
+            margin: 0 auto;
+            overflow: visible;
+        }
+        
+        .my-search input[type="text"] {
+            font-family: calibri;
+            font-size: 100%;
+            line-height: 1.15;
+            padding: 8px;
+            flex: 1;
+            border-radius: 9999px;
+            border: none;
+            outline: none;
+            box-shadow: none;
+        }
+
+        :focus{
+        .my-search input[type="text"]:focus {
+            background-color: #fff;
+            border-color: #3b49df;
+            box-shadow: 1px 1px 0 #3b49df;
+        }
+        ]
+    }
 ]
